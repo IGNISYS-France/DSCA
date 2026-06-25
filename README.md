@@ -1,4 +1,15 @@
 🇬🇧 **English** | [🇫🇷 Français](README.fr.md)
+---
+## Documentation
+
+| Document | English | Français |
+|----------|:-------:|:---------:|
+| README | ✅ | [🇫🇷](README.fr.md) |
+| Manifesto | [📖](THE-DSCA-MANIFESTO.md) | [📖](THE-DSCA-MANIFESTO.fr.md) |
+| Lexicon | [📖](LEXICON.md) | [📖](LEXICON.fr.md) |
+| Fundamental Laws | [📖](DSCA_LAWS.md) | [📖](DSCA_LAWS.fr.md) |
+
+---
 
 # DSCA — Dynamic System Causal Analysis
 
