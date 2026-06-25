@@ -1,3 +1,5 @@
+🇬🇧 **English** | [🇫🇷 Français](LEXICON.fr.md)
+---
 # LEXICON.md
 
 # DSCA Lexicon
