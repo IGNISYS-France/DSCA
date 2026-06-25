@@ -1,3 +1,5 @@
+🇬🇧 **English** | [🇫🇷 Français](README.fr.md)
+
 # DSCA — Dynamic System Causal Analysis
 
 > **Understanding systems, not simply reading data.**
