@@ -1,8 +1,16 @@
 🇬🇧 **English** | [🇫🇷 Français](THE-DSCA-MANIFESTO.fr.md)
 
-# DSCA Founding Manifesto (Version 0.1)
+---
 
-## Preamble
+# THE-DSCA-MANIFESTO.md
+
+# DSCA Manifesto
+
+> **Understanding systems, not simply reading data.**
+
+---
+
+# Preamble
 
 We have learned how to measure the world.
 
@@ -36,11 +44,11 @@ Our goal is to help build better hypotheses.
 
 We believe that:
 
-* An isolated data point has little value.
-* Understanding emerges from the relationships between data.
-* Every measurement exists within a context.
-* A system is defined more by the interactions between its components than by the components themselves.
-* Physical phenomena tell a story that data allows us to reconstruct.
+* an isolated data point has little value;
+* understanding emerges from the relationships between data;
+* every measurement exists within a context;
+* a system is defined more by the interactions between its components than by the components themselves;
+* physical phenomena tell a story that data allows us to reconstruct.
 
 ---
 
@@ -51,7 +59,7 @@ DSCA is not:
 * an OBD diagnostic tool;
 * a scan tool;
 * an ECU programming application;
-* an AI that makes decisions instead of humans;
+* an artificial intelligence making decisions instead of humans;
 * a fault-code database.
 
 DSCA is an exploration engine for understanding the behavior of dynamic systems.
@@ -118,12 +126,12 @@ The user always remains responsible for interpreting the results and making deci
 
 DSCA learns through a continuous cycle:
 
-```
+```text
 Observe
 
 ↓
 
-Hypothesis
+Formulate a hypothesis
 
 ↓
 
@@ -131,11 +139,11 @@ Experiment
 
 ↓
 
-Validation
+Validate
 
 ↓
 
-New Hypothesis
+Build a new hypothesis
 ```
 
 Knowledge is never static.
@@ -166,7 +174,7 @@ We do not seek to replace exploration.
 
 We seek to support it.
 
-We are not building software.
+We are not simply building software.
 
 We are building a new way of observing dynamic systems.
 
@@ -176,7 +184,7 @@ We are building a new way of observing dynamic systems.
 
 Every line of code written for DSCA must answer one fundamental question:
 
-**Does this feature genuinely help us better understand the behavior of a dynamic system?**
+> **Does this feature genuinely help us better understand the behavior of a system?**
 
 If the answer is no,
 
@@ -186,4 +194,4 @@ then it probably does not belong in the project.
 
 # IX — Our Motto
 
-**Create the future, not simply tomorrow.**
+> **Create the future, not simply tomorrow.**
