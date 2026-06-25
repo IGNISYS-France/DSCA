@@ -1,3 +1,5 @@
+[🇬🇧 English](DSCA_LAWS.md) | 🇫🇷 **Français**
+---
 # DSCA_LAWS.fr.md
 
 # Lois Fondamentales de DSCA
