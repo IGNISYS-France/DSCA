@@ -2,13 +2,15 @@
 ---
 ## Documentation
 
-| Document | English | Français |
-|----------|:-------:|:---------:|
-| README | ✅ | [🇫🇷](README.fr.md) |
-| Manifesto | [📖](MANIFESTO.md) | [📖](MANIFESTO.fr.md) |
-| Lexicon | [📖](LEXICON.md) | [📖](LEXICON.fr.md) |
-| Fundamental Laws | [📖](DSCA_LAWS.md) | [📖](DSCA_LAWS.fr.md) |
+| Document | Français | English |
+|----------|:---------:|:-------:|
+| README | ✅ | [🇬🇧](README.md) |
+| Manifeste | [📖](MANIFESTO.fr.md) | [📖](MANIFESTO.md) |
+| Lexique | [📖](LEXICON.fr.md) | [📖](LEXICON.md) |
+| Lois fondamentales | [📖](DSCA_LAWS.fr.md) | [📖](DSCA_LAWS.md) |
+
 ---
+
 # DSCA — Dynamic System Causal Analysis
 
 > **Comprendre les systèmes, pas simplement lire les données.**
