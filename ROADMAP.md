@@ -2,63 +2,73 @@
 
 > **From observations to understanding.**
 
-This roadmap describes the long-term vision of the DSCA project.
+This roadmap describes the long-term evolution of DSCA.
 
-The goal is not simply to develop software, but to progressively build a causal reasoning engine capable of assisting the understanding of dynamic systems.
+DSCA is not simply software.
+
+It is the progressive construction of an explainable reasoning engine dedicated to understanding dynamic systems.
 
 ---
 
 # Phase 0 — Genesis
 
-**Project Foundation**
+> **A vision becomes a project.**
+
+## Project Foundation
 
 * [x] Define the project philosophy
 * [x] Write the Manifesto
 * [x] Create the README documentation
-* [ ] Define the software architecture
-* [ ] Define the internal data model
-* [ ] Choose the development stack
-* [ ] Create the first development environment
+* [x] Define the software architecture
+* [x] Define the internal data model
+* [x] Choose the development stack
+* [x] Create the first development environment
 
 ---
 
-# Phase 1 — Core Foundation
+# Phase 1 — Observation
 
-**The software must first understand data before interpreting it.**
+> **Every understanding begins with observation.**
 
-## Data Import
+DSCA first learns how to observe dynamic systems reliably.
+
+## Observation Acquisition
 
 * [ ] Generic CSV importer
 * [ ] Launch CSV importer
 * [ ] Autel CSV importer
 * [ ] AutoTuner log importer
-* [ ] Extensible plugin importer system
+* [ ] Extensible plugin importer architecture
 
-## Data Normalization
+## Observation Normalization
 
 * [ ] Common internal data model
 * [ ] Timestamp synchronization
-* [ ] Unit conversion
+* [ ] Unit normalization
 * [ ] Signal validation
-* [ ] Missing data management
+* [ ] Missing observation management
 
 ---
 
-# Phase 2 — System Representation
+# Phase 2 — Contextualization
 
-**Represent the state of a dynamic system at any instant.**
+> **An observation only becomes meaningful within its context.**
+
+DSCA learns how to reconstruct the complete state surrounding observations.
 
 * [ ] System State model
 * [ ] Context model
 * [ ] Signal abstraction
-* [ ] Dynamic context engine
+* [ ] Dynamic Context engine
 * [ ] Time-series management
 
 ---
 
-# Phase 3 — Event Engine
+# Phase 3 — Interpretation
 
-**Transform measurements into meaningful events.**
+> **Measurements become events.**
+
+Raw observations are transformed into meaningful technical events.
 
 Examples:
 
@@ -80,9 +90,11 @@ Features:
 
 ---
 
-# Phase 4 — Behavioral Engine
+# Phase 4 — Behavior
 
-**Understand system behavior instead of isolated values.**
+> **Events reveal behavior.**
+
+DSCA identifies recurring organizations of events that describe how systems behave.
 
 * [ ] Behavioral pattern detection
 * [ ] Event sequence recognition
@@ -92,25 +104,29 @@ Features:
 
 ---
 
-# Phase 5 — Causal Reasoning Engine
+# Phase 5 — Reasoning
 
-**Build explainable technical hypotheses.**
+> **Behavior reveals causality.**
 
-The engine should:
+DSCA constructs explainable technical hypotheses.
+
+The reasoning engine should:
 
 * identify plausible causal chains;
 * rank competing hypotheses;
 * explain every conclusion;
 * identify missing information;
-* suggest additional measurements.
+* suggest additional observations or experiments.
 
-The engine must never claim certainty.
+The engine never claims certainty.
 
 ---
 
-# Phase 6 — Knowledge Engine
+# Phase 6 — Knowledge
 
-**Learn from validated observations.**
+> **Validated reasoning becomes knowledge.**
+
+Validated observations progressively build a reliable body of knowledge.
 
 * [ ] Behavioral knowledge base
 * [ ] Signature management
@@ -120,9 +136,11 @@ The engine must never claim certainty.
 
 ---
 
-# Phase 7 — AI Assistant
+# Phase 7 — Exploration
 
-The AI should never replace human reasoning.
+> **Understanding grows through exploration.**
+
+Artificial Intelligence assists exploration without replacing human reasoning.
 
 Its role is to:
 
@@ -130,13 +148,18 @@ Its role is to:
 * summarize complex situations;
 * generate technical reports;
 * answer questions about analyses;
-* assist exploration.
+* suggest experiments;
+* assist understanding.
+
+The human always remains responsible for interpretation.
 
 ---
 
 # Phase 8 — Visualization
 
-Understanding begins with visualization.
+> **Understanding begins with visualization.**
+
+DSCA makes complex reasoning visible.
 
 * [ ] Interactive timeline
 * [ ] Event graph
@@ -147,11 +170,13 @@ Understanding begins with visualization.
 
 ---
 
-# Phase 9 — Plugin Ecosystem
+# Phase 9 — Ecosystem
 
-Allow DSCA to support multiple domains.
+> **Understanding should not be limited to one domain.**
 
-Potential plugins:
+DSCA becomes a generic reasoning platform.
+
+Potential extensions include:
 
 * Automotive
 * Motorcycle
@@ -159,18 +184,19 @@ Potential plugins:
 * Industrial systems
 * Robotics
 * Embedded systems
-* Research applications
+* Research
+* Scientific applications
 
 ---
 
-# Version 1.0
+# Version 1.0 - New Dawn 
 
 The first stable version should be capable of:
 
-* importing diagnostic logs;
-* reconstructing system behavior;
-* detecting significant events;
-* identifying behavioral signatures;
+* importing heterogeneous observations;
+* reconstructing system context;
+* detecting meaningful events;
+* identifying behavioral patterns;
 * generating explainable causal hypotheses;
 * producing technical reports;
 * assisting human reasoning.
@@ -181,8 +207,8 @@ The first stable version should be capable of:
 
 DSCA is not intended to become another diagnostic tool.
 
-Its ambition is to become a generic reasoning engine capable of helping humans understand complex dynamic systems through observation, contextualization and explainable causal analysis.
+Its ambition is to become a universal reasoning engine capable of helping humans understand complex dynamic systems through observation, contextualization, explainable reasoning and continuous exploration.
 
 ---
 
-**Create the future, not simply tomorrow.**
+> **Create the future, not simply tomorrow.**
