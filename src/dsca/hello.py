@@ -1,24 +1,30 @@
 """
 DSCA — Dynamic System Causal Analysis
 
-First executable program of the project.
-
-Version : 0.0.1 - Genesis
+Development Banner
 """
 
 def hello():
-    print("=" * 42)
+    print("=" * 56)
     print(" Dynamic System Causal Analysis")
-    print("               DSCA")
-    print("=" * 42)
+    print("                 DSCA")
+    print("=" * 56)
     print()
-    print("Observe.")
-    print("Understand.")
-    print("Explore.")
+    print("Development Version : 0.1.0-dev")
+    print("Current Phase       : Observation")
+    print("Project Status      : Active Development")
     print()
-    print("Version : 0.0.1 - Genesis")
-    print("IGNISYS - OPEN SOURCE PROJECT - 2026")
+    print("Mission")
+    print("  Observe.")
+    print("  Understand.")
+    print("  Explore.")
+    print()
+    print("Next Milestone      : Contextualization")
+    print()
+    print("IGNISYS — OPEN SOURCE PROJECT")
+    print("Create the future, not simply tomorrow.")
 
 
 if __name__ == "__main__":
-    hello()
+    
+     hello()
