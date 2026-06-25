@@ -1,0 +1,11 @@
+def hello():
+    print("=" * 42)
+    print(" Dynamic System Causal Analysis")
+    print("               DSCA")
+    print("=" * 42)
+    print()
+    print("Observe.")
+    print("Understand.")
+    print("Explore.")
+    print()
+    print("Version : 0.0.1 - Genesis")
