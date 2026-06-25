@@ -315,6 +315,22 @@ It extends the ability to explore complex systems.
 
 ---
 
+# Understanding
+
+## Definition
+
+The coherent interpretation of a dynamic system based on observations, context, events, behavioral patterns and validated hypotheses.
+
+## Purpose
+
+Understanding is the ultimate objective of DSCA.
+
+It is never absolute.
+
+It continuously evolves as new observations become available.
+
+---
+
 # Guiding Principle
 
 **Words define concepts.**
