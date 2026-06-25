@@ -1,5 +1,4 @@
 [🇬🇧 English](THE-DSCA-MANIFESTO.md) | 🇫🇷 **Français**
-
 ---
 
 # THE-DSCA-MANIFESTO.fr.md
