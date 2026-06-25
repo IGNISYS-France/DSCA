@@ -273,6 +273,20 @@ Any system whose state evolves over time.
 
 ---
 
+# Exploration
+
+## Definition
+
+The iterative process of observing, contextualizing, reasoning, experimenting and refining understanding through evidence.
+
+## Purpose
+
+Explore the behavior of dynamic systems without assuming conclusions beforehand.
+
+Exploration is the foundation of learning within DSCA.
+
+---
+
 # Reasoning
 
 ## Definition
