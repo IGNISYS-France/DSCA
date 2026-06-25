@@ -5,7 +5,7 @@
 | Document | Français | English |
 |----------|:---------:|:-------:|
 | README | ✅ | [🇬🇧](README.md) |
-| Manifeste | [📖](MANIFESTO.fr.md) | [📖](MANIFESTO.md) |
+| Manifeste | [📖](THE-DSCA-MANIFESTO.fr.md) | [📖](THE-DSCA-MANIFESTO.md) |
 | Lexique | [📖](LEXICON.fr.md) | [📖](LEXICON.md) |
 | Lois fondamentales | [📖](DSCA_LAWS.fr.md) | [📖](DSCA_LAWS.md) |
 
