@@ -1,3 +1,5 @@
+🇬🇧 **English** | [🇫🇷 Français](THE-DSCA-MANIFESTO.fr.md)
+
 # DSCA Founding Manifesto (Version 0.1)
 
 ## Preamble
