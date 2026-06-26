@@ -1,0 +1,21 @@
+id: CS-IGN-0075
+
+name: Cylinder 5 Knock Retard
+
+description: Ignition timing retard applied on cylinder 5 by the engine control unit in response to knock detection.
+
+category: ignition
+
+physical_quantity: ignition_timing
+
+default_unit: deg
+
+dimension: angle
+
+aliases:
+  - Cylinder 5 Knock Retard
+  - Cyl 5 Knock Retard
+  - Knock Correction Cylinder 5
+  - Ignition Retard Cylinder 5
+  - Knock Retard Cyl 5
+  - Retard de cliquetis cylindre 5

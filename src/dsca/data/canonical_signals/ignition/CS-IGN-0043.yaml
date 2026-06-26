@@ -1,0 +1,20 @@
+id: CS-IGN-0043
+
+name: Cylinder 3 Knock Level
+
+description: Knock intensity detected on cylinder 3.
+
+category: ignition
+
+physical_quantity: knock_level
+
+default_unit: count
+
+dimension: count
+
+aliases:
+  - Cylinder 3 Knock
+  - Cyl 3 Knock
+  - Knock Cylinder 3
+  - Knock Retard Cylinder 3
+  - Cliquetis cylindre 3

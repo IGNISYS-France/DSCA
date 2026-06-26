@@ -1,0 +1,21 @@
+id: CS-IGN-0079
+
+name: Cylinder 9 Knock Retard
+
+description: Ignition timing retard applied on cylinder 9 by the engine control unit in response to knock detection.
+
+category: ignition
+
+physical_quantity: ignition_timing
+
+default_unit: deg
+
+dimension: angle
+
+aliases:
+  - Cylinder 9 Knock Retard
+  - Cyl 9 Knock Retard
+  - Knock Correction Cylinder 9
+  - Ignition Retard Cylinder 9
+  - Knock Retard Cyl 9
+  - Retard de cliquetis cylindre 9

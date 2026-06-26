@@ -1,0 +1,18 @@
+id: CS-IGN-0070
+
+name: Knock Retard
+
+description: Ignition timing retard applied by the engine control unit in response to knock detection.
+
+category: ignition
+
+physical_quantity: ignition_timing
+
+default_unit: deg
+
+dimension: angle
+
+aliases:
+  - Knock Retard
+  - Knock Correction
+  - Ignition Retard

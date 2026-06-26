@@ -1,0 +1,20 @@
+id: CS-IGN-0054
+
+name: Cylinder 14 Knock Level
+
+description: Knock intensity detected on cylinder 14.
+
+category: ignition
+
+physical_quantity: knock_level
+
+default_unit: count
+
+dimension: count
+
+aliases:
+  - Cylinder 14 Knock
+  - Cyl 14 Knock
+  - Knock Cylinder 14
+  - Knock Retard Cylinder 14
+  - Cliquetis cylindre 14

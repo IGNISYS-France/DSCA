@@ -8,7 +8,7 @@ category: ignition
 
 physical_quantity: angle
 
-default_unit: degree
+default_unit: deg
 
 dimension: angle
 

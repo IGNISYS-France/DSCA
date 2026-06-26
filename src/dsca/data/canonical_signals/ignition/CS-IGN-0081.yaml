@@ -1,0 +1,21 @@
+id: CS-IGN-0081
+
+name: Cylinder 11 Knock Retard
+
+description: Ignition timing retard applied on cylinder 11 by the engine control unit in response to knock detection.
+
+category: ignition
+
+physical_quantity: ignition_timing
+
+default_unit: deg
+
+dimension: angle
+
+aliases:
+  - Cylinder 11 Knock Retard
+  - Cyl 11 Knock Retard
+  - Knock Correction Cylinder 11
+  - Ignition Retard Cylinder 11
+  - Knock Retard Cyl 11
+  - Retard de cliquetis cylindre 11

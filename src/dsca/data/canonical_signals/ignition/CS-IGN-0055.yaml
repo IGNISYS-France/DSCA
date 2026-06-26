@@ -1,0 +1,20 @@
+id: CS-IGN-0055
+
+name: Cylinder 15 Knock Level
+
+description: Knock intensity detected on cylinder 15.
+
+category: ignition
+
+physical_quantity: knock_level
+
+default_unit: count
+
+dimension: count
+
+aliases:
+  - Cylinder 15 Knock
+  - Cyl 15 Knock
+  - Knock Cylinder 15
+  - Knock Retard Cylinder 15
+  - Cliquetis cylindre 15

@@ -1,0 +1,21 @@
+id: CS-IGN-0085
+
+name: Cylinder 15 Knock Retard
+
+description: Ignition timing retard applied on cylinder 15 by the engine control unit in response to knock detection.
+
+category: ignition
+
+physical_quantity: ignition_timing
+
+default_unit: deg
+
+dimension: angle
+
+aliases:
+  - Cylinder 15 Knock Retard
+  - Cyl 15 Knock Retard
+  - Knock Correction Cylinder 15
+  - Ignition Retard Cylinder 15
+  - Knock Retard Cyl 15
+  - Retard de cliquetis cylindre 15

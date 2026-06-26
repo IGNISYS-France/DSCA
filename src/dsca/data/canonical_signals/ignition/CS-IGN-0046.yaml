@@ -1,0 +1,20 @@
+id: CS-IGN-0046
+
+name: Cylinder 6 Knock Level
+
+description: Knock intensity detected on cylinder 6.
+
+category: ignition
+
+physical_quantity: knock_level
+
+default_unit: count
+
+dimension: count
+
+aliases:
+  - Cylinder 6 Knock
+  - Cyl 6 Knock
+  - Knock Cylinder 6
+  - Knock Retard Cylinder 6
+  - Cliquetis cylindre 6

@@ -1,0 +1,21 @@
+id: CS-IGN-0074
+
+name: Cylinder 4 Knock Retard
+
+description: Ignition timing retard applied on cylinder 4 by the engine control unit in response to knock detection.
+
+category: ignition
+
+physical_quantity: ignition_timing
+
+default_unit: deg
+
+dimension: angle
+
+aliases:
+  - Cylinder 4 Knock Retard
+  - Cyl 4 Knock Retard
+  - Knock Correction Cylinder 4
+  - Ignition Retard Cylinder 4
+  - Knock Retard Cyl 4
+  - Retard de cliquetis cylindre 4

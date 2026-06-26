@@ -8,7 +8,7 @@ category: thermal
 
 physical_quantity: temperature
 
-default_unit: celsius
+default_unit: degC
 
 dimension: temperature
 

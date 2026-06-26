@@ -1,0 +1,21 @@
+id: CS-IGN-0084
+
+name: Cylinder 14 Knock Retard
+
+description: Ignition timing retard applied on cylinder 14 by the engine control unit in response to knock detection.
+
+category: ignition
+
+physical_quantity: ignition_timing
+
+default_unit: deg
+
+dimension: angle
+
+aliases:
+  - Cylinder 14 Knock Retard
+  - Cyl 14 Knock Retard
+  - Knock Correction Cylinder 14
+  - Ignition Retard Cylinder 14
+  - Knock Retard Cyl 14
+  - Retard de cliquetis cylindre 14

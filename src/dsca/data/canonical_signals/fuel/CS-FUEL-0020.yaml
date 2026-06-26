@@ -8,7 +8,7 @@ category: fuel
 
 physical_quantity: fuel_trim
 
-default_unit: percent
+default_unit: %
 
 dimension: ratio
 

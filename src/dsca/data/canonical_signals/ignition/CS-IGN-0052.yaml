@@ -1,0 +1,20 @@
+id: CS-IGN-0052
+
+name: Cylinder 12 Knock Level
+
+description: Knock intensity detected on cylinder 12.
+
+category: ignition
+
+physical_quantity: knock_level
+
+default_unit: count
+
+dimension: count
+
+aliases:
+  - Cylinder 12 Knock
+  - Cyl 12 Knock
+  - Knock Cylinder 12
+  - Knock Retard Cylinder 12
+  - Cliquetis cylindre 12

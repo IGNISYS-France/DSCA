@@ -1,0 +1,20 @@
+id: CS-IGN-0047
+
+name: Cylinder 7 Knock Level
+
+description: Knock intensity detected on cylinder 7.
+
+category: ignition
+
+physical_quantity: knock_level
+
+default_unit: count
+
+dimension: count
+
+aliases:
+  - Cylinder 7 Knock
+  - Cyl 7 Knock
+  - Knock Cylinder 7
+  - Knock Retard Cylinder 7
+  - Cliquetis cylindre 7

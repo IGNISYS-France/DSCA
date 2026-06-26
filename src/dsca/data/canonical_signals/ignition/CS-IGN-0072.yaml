@@ -1,0 +1,21 @@
+id: CS-IGN-0072
+
+name: Cylinder 2 Knock Retard
+
+description: Ignition timing retard applied on cylinder 2 by the engine control unit in response to knock detection.
+
+category: ignition
+
+physical_quantity: ignition_timing
+
+default_unit: deg
+
+dimension: angle
+
+aliases:
+  - Cylinder 2 Knock Retard
+  - Cyl 2 Knock Retard
+  - Knock Correction Cylinder 2
+  - Ignition Retard Cylinder 2
+  - Knock Retard Cyl 2
+  - Retard de cliquetis cylindre 2

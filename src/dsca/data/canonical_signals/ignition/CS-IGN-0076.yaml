@@ -1,0 +1,21 @@
+id: CS-IGN-0076
+
+name: Cylinder 6 Knock Retard
+
+description: Ignition timing retard applied on cylinder 6 by the engine control unit in response to knock detection.
+
+category: ignition
+
+physical_quantity: ignition_timing
+
+default_unit: deg
+
+dimension: angle
+
+aliases:
+  - Cylinder 6 Knock Retard
+  - Cyl 6 Knock Retard
+  - Knock Correction Cylinder 6
+  - Ignition Retard Cylinder 6
+  - Knock Retard Cyl 6
+  - Retard de cliquetis cylindre 6

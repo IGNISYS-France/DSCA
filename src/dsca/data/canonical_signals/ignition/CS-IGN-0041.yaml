@@ -1,0 +1,20 @@
+id: CS-IGN-0041
+
+name: Cylinder 1 Knock Level
+
+description: Knock intensity detected on cylinder 1.
+
+category: ignition
+
+physical_quantity: knock_level
+
+default_unit: count
+
+dimension: count
+
+aliases:
+  - Cylinder 1 Knock
+  - Cyl 1 Knock
+  - Knock Cylinder 1
+  - Knock Retard Cylinder 1
+  - Cliquetis cylindre 1

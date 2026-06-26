@@ -1,0 +1,20 @@
+id: CS-IGN-0048
+
+name: Cylinder 8 Knock Level
+
+description: Knock intensity detected on cylinder 8.
+
+category: ignition
+
+physical_quantity: knock_level
+
+default_unit: count
+
+dimension: count
+
+aliases:
+  - Cylinder 8 Knock
+  - Cyl 8 Knock
+  - Knock Cylinder 8
+  - Knock Retard Cylinder 8
+  - Cliquetis cylindre 8

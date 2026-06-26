@@ -1,0 +1,21 @@
+id: CS-IGN-0071
+
+name: Cylinder 1 Knock Retard
+
+description: Ignition timing retard applied on cylinder 1 by the engine control unit in response to knock detection.
+
+category: ignition
+
+physical_quantity: ignition_timing
+
+default_unit: deg
+
+dimension: angle
+
+aliases:
+  - Cylinder 1 Knock Retard
+  - Cyl 1 Knock Retard
+  - Knock Correction Cylinder 1
+  - Ignition Retard Cylinder 1
+  - Knock Retard Cyl 1
+  - Retard de cliquetis cylindre 1

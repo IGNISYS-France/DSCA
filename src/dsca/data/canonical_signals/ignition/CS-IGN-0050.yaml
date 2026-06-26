@@ -1,0 +1,20 @@
+id: CS-IGN-0050
+
+name: Cylinder 10 Knock Level
+
+description: Knock intensity detected on cylinder 10.
+
+category: ignition
+
+physical_quantity: knock_level
+
+default_unit: count
+
+dimension: count
+
+aliases:
+  - Cylinder 10 Knock
+  - Cyl 10 Knock
+  - Knock Cylinder 10
+  - Knock Retard Cylinder 10
+  - Cliquetis cylindre 10

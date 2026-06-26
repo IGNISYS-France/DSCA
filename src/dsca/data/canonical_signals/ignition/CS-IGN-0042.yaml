@@ -1,0 +1,20 @@
+id: CS-IGN-0042
+
+name: Cylinder 2 Knock Level
+
+description: Knock intensity detected on cylinder 2.
+
+category: ignition
+
+physical_quantity: knock_level
+
+default_unit: count
+
+dimension: count
+
+aliases:
+  - Cylinder 2 Knock
+  - Cyl 2 Knock
+  - Knock Cylinder 2
+  - Knock Retard Cylinder 2
+  - Cliquetis cylindre 2

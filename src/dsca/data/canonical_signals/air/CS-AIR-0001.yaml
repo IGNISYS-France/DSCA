@@ -8,7 +8,7 @@ category: air
 
 physical_quantity: pressure
 
-default_unit: kPa
+default_unit: bar
 
 dimension: pressure
 

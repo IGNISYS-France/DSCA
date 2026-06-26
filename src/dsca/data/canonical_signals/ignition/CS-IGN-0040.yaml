@@ -1,0 +1,22 @@
+id: CS-IGN-0040
+
+name: Knock Level
+
+description: Overall knock intensity detected by the engine control unit.
+
+category: ignition
+
+physical_quantity: knock_level
+
+default_unit: count
+
+dimension: count
+
+aliases:
+  - Knock Level
+  - Overall Knock
+  - Total Knock
+  - Global Knock
+  - Knock Count
+  - Knock Sensor
+  - Cliquetis

@@ -1,0 +1,20 @@
+id: CS-IGN-0045
+
+name: Cylinder 5 Knock Level
+
+description: Knock intensity detected on cylinder 5.
+
+category: ignition
+
+physical_quantity: knock_level
+
+default_unit: count
+
+dimension: count
+
+aliases:
+  - Cylinder 5 Knock
+  - Cyl 5 Knock
+  - Knock Cylinder 5
+  - Knock Retard Cylinder 5
+  - Cliquetis cylindre 5

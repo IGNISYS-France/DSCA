@@ -8,7 +8,7 @@ category: engine
 
 physical_quantity: pedal_position
 
-default_unit: percent
+default_unit: %
 
 dimension: ratio
 
