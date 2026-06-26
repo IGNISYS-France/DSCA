@@ -30,17 +30,22 @@ It is the progressive construction of an explainable reasoning engine dedicated 
 
 > **Every understanding begins with observation.**
 
-DSCA first learns how to represent, acquire and normalize observations.
+DSCA first learns how to represent, acquire and normalize observations before reasoning about them.
 
 ## Observation Model
 
-Before reading any external data, DSCA must define its own internal language.
+Before reading any external data, DSCA must define its own internal representation.
 
-* [ ] Signal model
-* [ ] Observation model
-* [ ] Observation collection
-* [ ] Dataset model
-* [ ] DSCA Signal Registry
+* [x] Signal model
+* [x] Canonical Signal model
+* [x] Observation model
+* [x] Event model
+* [x] System State model
+* [x] Behavioral Pattern model
+* [x] Causal Hypothesis model
+* [x] Diagnostic Code model
+* [x] DSCA Canonical Signal Registry
+* [x] DSCA Diagnostic Code Registry
 
 ---
 
@@ -52,6 +57,7 @@ Once the internal model exists, DSCA learns how to acquire observations from ext
 * [ ] Launch CSV importer
 * [ ] Autel CSV importer
 * [ ] AutoTuner log importer
+* [ ] Diagnostic Code importer
 * [ ] Extensible plugin importer architecture
 
 ---
@@ -60,6 +66,7 @@ Once the internal model exists, DSCA learns how to acquire observations from ext
 
 Imported observations are transformed into a common internal representation.
 
+* [ ] Common internal data model
 * [ ] Timestamp synchronization
 * [ ] Unit normalization
 * [ ] Signal validation
