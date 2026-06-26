@@ -52,7 +52,7 @@ DSCA a pour objectif de :
 | Document                         |           English           |            Français            |
 | -------------------------------- | :-------------------------: | :----------------------------: |
 | README                           |      [🇬🇧](README.md)      |                ✅               |
-| Manifeste                        | [📖](THE-DSCA-MANIFESTO.md) | [📖](THE-DSCA-MANIFESTO.fr.md) |
+| Manifeste                        | [📖](MANIFESTO.md)          |     [📖](MANIFESTO.fr.md)      |
 | Lexique                          |       [📖](LEXICON.md)      |       [📖](LEXICON.fr.md)      |
 | Lois Fondamentales               |      [📖](DSCA_LAWS.md)     |      [📖](DSCA_LAWS.fr.md)     |
 | Modèle de Données                |     [📖](DATA_MODEL.md)     |                —               |
@@ -136,8 +136,8 @@ DSCA/
 
 ├── README.md
 ├── README.fr.md
-├── THE-DSCA-MANIFESTO.md
-├── THE-DSCA-MANIFESTO.fr.md
+├── MANIFESTO.md
+├── MANIFESTO.fr.md
 ├── LEXICON.md
 ├── LEXICON.fr.md
 ├── DSCA_LAWS.md
