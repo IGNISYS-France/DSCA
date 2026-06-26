@@ -175,14 +175,6 @@ Si vous partagez la philosophie du projet, votre contribution est la bienvenue.
 
 ---
 
-# Licence
-
-Ce projet est distribué sous licence **MIT**.
-
-Consultez le fichier **LICENSE** pour plus d'informations.
-
----
-
 # Devise
 
 > **Créer l'avenir, pas simplement demain.**
