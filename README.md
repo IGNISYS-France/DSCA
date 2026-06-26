@@ -1,23 +1,14 @@
 🇬🇧 **English** | [🇫🇷 Français](README.fr.md)
----
-## Documentation
-
-| Document | English | Français |
-|----------|:-------:|:---------:|
-| README | ✅ | [🇫🇷](README.fr.md) |
-| Manifesto | [📖](THE-DSCA-MANIFESTO.md) | [📖](THE-DSCA-MANIFESTO.fr.md) |
-| Lexicon | [📖](LEXICON.md) | [📖](LEXICON.fr.md) |
-| Fundamental Laws | [📖](DSCA_LAWS.md) | [📖](DSCA_LAWS.fr.md) |
 
 ---
 
 # DSCA — Dynamic System Causal Analysis
 
-> **Understanding systems, not simply reading data.**
+> **From observations to understanding.**
 
-DSCA is an open-source project dedicated to the causal analysis of dynamic systems.
+DSCA is an open-source project dedicated to the explainable understanding of dynamic systems through causal reasoning.
 
-Rather than creating another diagnostic tool, DSCA aims to provide a new way of understanding complex systems by analyzing recorded data, identifying interactions, and assisting the user in building coherent technical hypotheses.
+Rather than creating another diagnostic tool, DSCA aims to build a generic reasoning engine capable of transforming heterogeneous observations into coherent, explainable technical understanding.
 
 ---
 
@@ -31,9 +22,13 @@ Today's diagnostic tools can:
 * display live data;
 * record logs.
 
-However, they rarely help users understand how these data interact over time.
+However, they rarely explain **why** systems behave as they do.
 
 DSCA starts where traditional diagnostic tools stop.
+
+Its objective is not simply to analyze data.
+
+Its objective is to understand dynamic systems.
 
 ---
 
@@ -41,82 +36,96 @@ DSCA starts where traditional diagnostic tools stop.
 
 DSCA aims to:
 
-* Import logs from different acquisition tools.
-* Normalize heterogeneous data.
-* Detect significant events.
-* Build contextual relationships between observations.
-* Identify behavioral signatures.
-* Generate explainable causal hypotheses.
-* Assist human reasoning without replacing it.
+* acquire heterogeneous observations;
+* normalize measurements into a common language;
+* reconstruct system context;
+* detect meaningful events;
+* identify behavioral patterns;
+* generate explainable causal hypotheses;
+* accumulate validated knowledge;
+* assist human reasoning without replacing it.
 
 ---
 
-# Project Status
+# Documentation
 
-🚧 **Early Research & Development**
-
-DSCA is currently in its design phase.
-
-The architecture, philosophy and core concepts are being defined before implementation begins.
+| Document            |           English           |            Français            |
+| ------------------- | :-------------------------: | :----------------------------: |
+| README              |              ✅              |      [🇫🇷](README.fr.md)      |
+| Manifesto           | [📖](THE-DSCA-MANIFESTO.md) | [📖](THE-DSCA-MANIFESTO.fr.md) |
+| Lexicon             |       [📖](LEXICON.md)      |       [📖](LEXICON.fr.md)      |
+| Fundamental Laws    |      [📖](DSCA_LAWS.md)     |      [📖](DSCA_LAWS.fr.md)     |
+| Data Model          |     [📖](DATA_MODEL.md)     |                —               |
+| Development Roadmap |       [📖](ROADMAP.md)      |                —               |
+| Reasoning Roadmap   |  [📖](REASONING_ROADMAP.md) |                —               |
 
 ---
 
-# Planned Architecture
+# Current Status
+
+🚧 **Version 0.1.0-dev — Observation**
+
+Genesis has been completed.
+
+DSCA is now entering its first development milestone: **Observation**.
+
+Current work focuses on:
+
+* Signal model
+* Canonical Signal model
+* DSCA Signal Registry
+* Observation model
+* Generic CSV importer
+
+---
+
+# High-Level Architecture
 
 ```text
-Raw Logs
-   │
-   ▼
+External Data Sources
+        │
+        ▼
 Importers
-   │
-   ▼
-Normalization
-   │
-   ▼
-System State Engine
-   │
-   ▼
-Event Detection
-   │
-   ▼
-Behavior Analysis
-   │
-   ▼
-Causal Reasoning
-   │
-   ▼
-Hypothesis Generation
-   │
-   ▼
-Human Interpretation
+        │
+        ▼
+DSCA Signal Registry
+        │
+        ▼
+Observation Model
+        │
+        ▼
+Context Engine
+        │
+        ▼
+Event Engine
+        │
+        ▼
+Behavior Engine
+        │
+        ▼
+Reasoning Engine
+        │
+        ▼
+Knowledge Engine
+        │
+        ▼
+Human Understanding
 ```
-
----
-
-# Planned Features
-
-* Multi-format log import
-* Launch CSV support
-* Autel CSV support
-* AutoTuner log support
-* Generic CSV importer
-* Event detection engine
-* Behavioral pattern recognition
-* Context-aware causal analysis
-* Explainable reasoning engine
-* AI-assisted technical reports
 
 ---
 
 # Core Principles
 
-* Observations always come before hypotheses.
-* Context is essential.
-* Every hypothesis must be explainable.
-* Every hypothesis must be falsifiable.
+DSCA is built upon several fundamental principles:
+
+* Observations always precede hypotheses.
+* Context gives meaning to observations.
+* Every hypothesis must remain explainable.
+* Every hypothesis must remain falsifiable.
+* Knowledge is built through validation.
 * Human expertise always remains central.
 
-For the complete philosophy of the project, please read **MANIFESTO.md**.
+For the complete philosophy of the project, please read the **Manifesto**.
 
 ---
 
@@ -127,43 +136,27 @@ DSCA/
 
 ├── README.md
 ├── README.fr.md
-├── MANIFESTO.md
-├── MANIFESTO.fr.md
-├── docs/
-├── src/
-├── tests/
-├── plugins/
-└── examples/
+├── THE-DSCA-MANIFESTO.md
+├── THE-DSCA-MANIFESTO.fr.md
+├── LEXICON.md
+├── LEXICON.fr.md
+├── DSCA_LAWS.md
+├── DSCA_LAWS.fr.md
+├── DATA_MODEL.md
+├── ROADMAP.md
+├── REASONING_ROADMAP.md
+├── LICENSE
+└── src/
+    └── dsca/
 ```
 
 ---
 
-# Roadmap
+# Development
 
-## Genesis
+The complete development roadmap is available in **ROADMAP.md**.
 
-* [ ] Repository initialization
-* [ ] Core architecture
-* [ ] Documentation
-
-## Foundation
-
-* [ ] Generic CSV importer
-* [ ] Launch importer
-* [ ] Data normalization
-
-## Engine
-
-* [ ] System state model
-* [ ] Event engine
-* [ ] Behavioral engine
-* [ ] Causal engine
-
-## Assistant
-
-* [ ] Explainable reasoning
-* [ ] Technical report generation
-* [ ] AI-assisted analysis
+The evolution of DSCA's reasoning capabilities is described in **REASONING_ROADMAP.md**.
 
 ---
 
@@ -184,10 +177,12 @@ If you share the project's philosophy, contributions are welcome.
 
 # License
 
-License to be defined.
+This project is released under the MIT License.
+
+See the **LICENSE** file for details.
 
 ---
 
 # Motto
 
-**Create the future, not simply tomorrow.**
+> **Create the future, not simply tomorrow.**
