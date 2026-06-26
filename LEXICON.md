@@ -1,14 +1,59 @@
 🇬🇧 **English** | [🇫🇷 Français](LEXICON.fr.md)
+
 ---
-# LEXICON.md
 
 # DSCA Lexicon
 
-> **A common language for understanding dynamic systems.**
+> **The official language of the DSCA reasoning engine.**
 
 The purpose of this document is to define the official vocabulary used throughout the DSCA project.
 
 Every contributor should refer to this document before introducing new terminology.
+
+---
+
+## Conceptual Flow
+
+```text
+Dynamic System
+        │
+        ▼
+Signals
+        │
+        ▼
+Observations
+        │
+        ▼
+Context
+        │
+        ▼
+System State
+        │
+        ▼
+Events
+        │
+        ▼
+Behavioral Patterns
+        │
+        ▼
+Causal Chains
+        │
+        ▼
+Hypotheses
+        │
+        ▼
+Knowledge
+        │
+        ▼
+Understanding
+        │
+        ▼
+Exploration
+```
+
+---
+
+# Fundamental Concepts
 
 ---
 
@@ -18,17 +63,19 @@ Every contributor should refer to this document before introducing new terminolo
 
 A Signal is the smallest measurable unit handled by DSCA.
 
-It represents the evolution of a physical, logical, or calculated quantity over time.
+It represents the evolution of a physical, logical or calculated quantity over time.
+
+Every Signal references one Canonical Signal defined by the DSCA Signal Registry.
 
 ## Purpose
 
-Signals are the raw observations from which every higher level concept is built.
+Signals are the raw observations from which every higher-level concept is built.
 
 ## Relationships
 
-Signals form Observations.
-
-Signal evolution may generate Events.
+* Signals reference Canonical Signals.
+* Signal evolution may generate Events.
+* Signals form Observations.
 
 ## Examples
 
@@ -38,6 +85,112 @@ Signal evolution may generate Events.
 * Knock Level
 * Coolant Temperature
 * Accelerator Position
+
+---
+
+# Canonical Signal
+
+## Definition
+
+A Canonical Signal is the official DSCA representation of a measurable physical quantity.
+
+It provides a unique identifier independent of manufacturers, diagnostic tools, languages or naming conventions.
+
+Every Signal handled by DSCA references one Canonical Signal.
+
+## Purpose
+
+Provide a common language shared by every importer, reasoning engine and visualization component.
+
+Canonical Signals allow heterogeneous data sources to describe the same physical phenomenon consistently.
+
+## Example
+
+Canonical Signal:
+
+* Engine Speed
+
+Possible aliases:
+
+* RPM
+* Engine RPM
+* Motordrehzahl
+* Régime moteur
+* PID 0C
+* N_ENGINE
+
+---
+
+# Signal Alias
+
+## Definition
+
+A Signal Alias is an alternative name used by a manufacturer, diagnostic tool or data source to describe a Canonical Signal.
+
+Multiple aliases may refer to the same physical quantity.
+
+## Purpose
+
+Allow DSCA to recognize identical Signals originating from heterogeneous sources.
+
+Aliases never influence reasoning.
+
+They are only used during observation acquisition and normalization.
+
+## Relationships
+
+Signal Aliases belong to a Canonical Signal.
+
+Importers resolve aliases through the DSCA Signal Registry.
+
+---
+
+# DSCA Signal Registry
+
+## Definition
+
+The DSCA Signal Registry is the canonical vocabulary used throughout the project.
+
+It maps every known Signal Alias to one Canonical Signal.
+
+The registry represents the translation layer between external data sources and the internal language of DSCA.
+
+## Purpose
+
+Provide a universal language independently of:
+
+* manufacturers;
+* diagnostic tools;
+* file formats;
+* languages;
+* naming conventions.
+
+## Responsibilities
+
+* Define Canonical Signals.
+* Store Signal Aliases.
+* Define standard measurement units.
+* Associate physical quantities.
+* Categorize Signals.
+* Store Signal metadata.
+* Support future community contributions.
+
+## Relationships
+
+The DSCA Signal Registry is used by:
+
+* Importers
+* Observation Acquisition
+* Observation Normalization
+* Signal Validation
+* Reasoning Engine
+* Visualization
+
+## Guiding Principle
+
+DSCA never reasons on manufacturer-specific names.
+
+DSCA always reasons on Canonical Signals.
 
 ---
 
@@ -53,11 +206,9 @@ Represent the complete measurable state of a system.
 
 ## Relationships
 
-An Observation contains Signals.
-
-Observations belong to a Context.
-
-Multiple Observations describe system evolution.
+* An Observation contains Signals.
+* Observations belong to a Context.
+* Multiple Observations describe system evolution.
 
 ---
 
@@ -84,6 +235,28 @@ Without Context, observations cannot be correctly interpreted.
 
 ---
 
+# System State
+
+## Definition
+
+The complete condition of a system during a specific period of time.
+
+It combines:
+
+* Observations
+* Context
+* Active Events
+
+## Purpose
+
+Represent what the system is experiencing.
+
+---
+
+# Interpretation Concepts
+
+---
+
 # Event
 
 ## Definition
@@ -106,24 +279,6 @@ Reduce continuous data into meaningful changes.
 * Torque limitation
 * Misfire detected
 * Sensor incoherence
-
----
-
-# System State
-
-## Definition
-
-The complete condition of a system during a specific period of time.
-
-It combines:
-
-* Observations
-* Context
-* Active Events
-
-## Purpose
-
-Represent what the system is experiencing.
 
 ---
 
@@ -194,6 +349,10 @@ Confidence never represents certainty.
 
 ---
 
+# Knowledge Concepts
+
+---
+
 # Validation
 
 ## Definition
@@ -258,20 +417,33 @@ Explain:
 
 ---
 
-# Dynamic System
+# Reasoning
 
 ## Definition
 
-Any system whose state evolves over time.
+The process of constructing coherent hypotheses from observations while respecting physical principles.
 
-## Examples
+Reasoning is transparent.
 
-* Internal combustion engine
-* Electric powertrain
-* Motorcycle
-* Industrial machine
-* Robot
-* Hydraulic system
+Reasoning is explainable.
+
+Reasoning is always open to revision.
+
+---
+
+# Understanding
+
+## Definition
+
+The coherent interpretation of a dynamic system based on observations, context, events, behavioral patterns and validated hypotheses.
+
+## Purpose
+
+Understanding is the ultimate objective of DSCA.
+
+It is never absolute.
+
+It continuously evolves as new observations become available.
 
 ---
 
@@ -289,17 +461,24 @@ Exploration is the foundation of learning within DSCA.
 
 ---
 
-# Reasoning
+# Domain Concepts
+
+---
+
+# Dynamic System
 
 ## Definition
 
-The process of constructing coherent hypotheses from observations while respecting physical principles.
+Any system whose state evolves over time.
 
-Reasoning is transparent.
+## Examples
 
-Reasoning is explainable.
-
-Reasoning is always open to revision.
+* Internal combustion engine
+* Electric powertrain
+* Motorcycle
+* Industrial machine
+* Robot
+* Hydraulic system
 
 ---
 
@@ -314,22 +493,6 @@ An open-source reasoning engine dedicated to understanding dynamic systems throu
 DSCA does not replace human expertise.
 
 It extends the ability to explore complex systems.
-
----
-
-# Understanding
-
-## Definition
-
-The coherent interpretation of a dynamic system based on observations, context, events, behavioral patterns and validated hypotheses.
-
-## Purpose
-
-Understanding is the ultimate objective of DSCA.
-
-It is never absolute.
-
-It continuously evolves as new observations become available.
 
 ---
 
