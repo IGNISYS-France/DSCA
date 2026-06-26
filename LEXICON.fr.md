@@ -145,11 +145,11 @@ Les importateurs résolvent les alias grâce au Registre des Signaux DSCA.
 
 ---
 
-# Registre des Signaux DSCA
+# Registre des Signaux
 
 ## Définition
 
-Le **Registre des Signaux DSCA** constitue le vocabulaire canonique utilisé dans l'ensemble du projet.
+Le **Registre des Signaux** constitue le vocabulaire canonique utilisé dans l'ensemble du projet.
 
 Il associe chaque Alias de Signal connu à un unique Signal Canonique.
 
@@ -177,7 +177,7 @@ Fournir un langage universel indépendant :
 
 ## Relations
 
-Le Registre des Signaux DSCA est utilisé par :
+Le Registre des Signaux est utilisé par :
 
 * les Importateurs ;
 * l'Acquisition des Observations ;
@@ -191,6 +191,84 @@ Le Registre des Signaux DSCA est utilisé par :
 DSCA ne raisonne jamais sur les noms propres aux constructeurs.
 
 DSCA raisonne toujours sur des **Signaux Canoniques**.
+
+---
+
+# Code de Diagnostic
+
+## Définition
+
+Un Code de Diagnostic est un identifiant normalisé généré par un système de contrôle afin de signaler une condition anormale ou un dysfonctionnement détecté.
+
+Un Code de Diagnostic représente l'interprétation d'une ou plusieurs observations réalisée par un contrôleur.
+
+Il ne constitue pas une observation directe.
+
+## Objectif
+
+Fournir un élément de preuve diagnostique supplémentaire pouvant contribuer au raisonnement causal.
+
+Les Codes de Diagnostic ne constituent jamais une preuve d'une cause racine.
+
+## Relations
+
+Les Codes de Diagnostic peuvent référencer :
+
+* des Signaux Canoniques ;
+* des Événements ;
+* des Comportements.
+
+Ils contribuent à l'élaboration d'hypothèses causales, sans jamais remplacer les observations.
+
+## Exemples
+
+* P0087
+* P0299
+* P0300
+* P0101
+
+---
+
+# Registre des Codes de Diagnostic
+
+## Définition
+
+Le Registre des Codes de Diagnostic constitue la base de connaissances officielle de DSCA décrivant les Codes de Diagnostic normalisés.
+
+Chaque définition de Code de Diagnostic peut inclure :
+
+* une description ;
+* les Signaux Canoniques associés ;
+* les Comportements associés ;
+* les causes possibles ;
+* les observations recommandées ;
+* les expériences suggérées.
+
+## Objectif
+
+Fournir une connaissance diagnostique structurée tout en restant indépendante de toute implémentation propre à un constructeur.
+
+Le Registre assiste le raisonnement.
+
+Le Registre complète les observations.
+
+Il ne les remplace jamais.
+
+Il ne détermine jamais les conclusions.
+
+---
+
+# Registre des Expériences
+
+## Définition
+
+Le Registre des Expériences constitue la base de connaissances officielle de DSCA décrivant les expériences diagnostiques utilisées pour valider ou invalider des hypothèses.
+
+## Objectif
+
+Fournir des procédures de validation réutilisables pour le raisonnement causal.
+
+Les expériences transforment des hypothèses plausibles en connaissances validées.
 
 ---
 
