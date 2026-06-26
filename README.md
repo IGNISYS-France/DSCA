@@ -175,14 +175,6 @@ If you share the project's philosophy, contributions are welcome.
 
 ---
 
-# License
-
-This project is released under the MIT License.
-
-See the **LICENSE** file for details.
-
----
-
 # Motto
 
 > **Create the future, not simply tomorrow.**
