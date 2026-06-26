@@ -6,8 +6,8 @@ Development Banner
 
 def hello():
     print("=" * 56)
-    print(" Dynamic System Causal Analysis")
-    print("                 DSCA")
+    print("           Dynamic System Causal Analysis")
+    print("                          DSCA")
     print("=" * 56)
     print()
     print("Development Version : 0.1.0-dev")
