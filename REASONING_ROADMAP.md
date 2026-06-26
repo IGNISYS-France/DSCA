@@ -1,71 +1,138 @@
 # DSCA Reasoning Roadmap
 
+> **Reasoning is not a feature. It is a capability acquired progressively.**
+
 The objective of DSCA is not merely to process data.
 
-Its objective is to progressively acquire new reasoning capabilities.
+Its purpose is to progressively develop the capabilities required to understand dynamic systems through observation, contextualization and explainable reasoning.
 
 ---
 
-## Stage 0 — Observe
+# Stage 0 — Observation
 
-The software is able to import and visualize data.
+> **DSCA learns how to observe.**
 
-It understands measurements.
+The engine acquires observations from heterogeneous sources.
 
----
+It understands measurements as Signals.
 
-## Stage 1 — Normalize
+It builds a common internal representation.
 
-The software understands that different tools can describe the same physical phenomenon.
+Capabilities:
 
-It creates a common representation.
-
----
-
-## Stage 2 — Contextualize
-
-The software no longer interprets isolated values.
-
-Every observation is interpreted within its dynamic context.
+* Observe
+* Acquire
+* Normalize
 
 ---
 
-## Stage 3 — Detect Events
+# Stage 1 — Contextualization
 
-The software transforms continuous measurements into meaningful events.
+> **An observation only becomes meaningful within its context.**
 
-It understands that systems evolve over time.
+DSCA reconstructs the complete environment surrounding every observation.
 
----
+It understands operating conditions rather than isolated values.
 
-## Stage 4 — Understand Behavior
+Capabilities:
 
-The software recognizes recurring behavioral signatures.
-
-It no longer compares values.
-
-It compares behaviors.
+* Context reconstruction
+* System state representation
+* Temporal consistency
 
 ---
 
-## Stage 5 — Build Causal Hypotheses
+# Stage 2 — Interpretation
 
-The software reconstructs plausible chains of events.
+> **Measurements become events.**
 
-It explains why each hypothesis is proposed.
+Continuous observations are transformed into meaningful events.
+
+The engine begins to recognize system evolution.
+
+Capabilities:
+
+* Event detection
+* Event classification
+* Event confidence
 
 ---
 
-## Stage 6 — Learn
+# Stage 3 — Behavior
 
-The software evolves through validated observations.
+> **Events reveal behavior.**
 
-Knowledge becomes cumulative.
+DSCA no longer compares individual measurements.
+
+It recognizes recurring behavioral organizations.
+
+Capabilities:
+
+* Behavioral pattern recognition
+* Sequence analysis
+* Behavioral similarity
 
 ---
 
-## Stage 7 — Assist Exploration
+# Stage 4 — Reasoning
 
-The software no longer simply analyzes systems.
+> **Behavior reveals causality.**
 
-It assists humans in exploring them.
+The engine reconstructs plausible causal chains.
+
+Every hypothesis remains explainable.
+
+Every conclusion remains provisional.
+
+Capabilities:
+
+* Causal chain reconstruction
+* Hypothesis generation
+* Confidence estimation
+* Missing information identification
+
+---
+
+# Stage 5 — Knowledge
+
+> **Validated reasoning becomes knowledge.**
+
+Repeated validation progressively transforms hypotheses into reliable knowledge.
+
+Capabilities:
+
+* Knowledge accumulation
+* Signature management
+* Validation workflow
+* Knowledge versioning
+
+---
+
+# Stage 6 — Exploration
+
+> **Understanding grows through exploration.**
+
+DSCA assists human reasoning without replacing it.
+
+The engine explains its reasoning, identifies uncertainties and proposes new experiments.
+
+Capabilities:
+
+* Explain reasoning
+* Suggest experiments
+* Generate technical reports
+* Assist human exploration
+
+---
+
+# Final Objective
+
+DSCA does not seek certainty.
+
+It seeks progressively better understanding.
+
+Every new observation may refine previous knowledge.
+
+Understanding is therefore never final.
+
+It continuously evolves through observation, experimentation and validation.
