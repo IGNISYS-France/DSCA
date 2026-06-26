@@ -51,10 +51,10 @@ DSCA aims to:
 
 | Document            |           English           |            Français            |
 | ------------------- | :-------------------------: | :----------------------------: |
-| README              |              ✅              |      [🇫🇷](README.fr.md)      |
-| Manifesto           | [📖](THE-DSCA-MANIFESTO.md) | [📖](THE-DSCA-MANIFESTO.fr.md) |
-| Lexicon             |       [📖](LEXICON.md)      |       [📖](LEXICON.fr.md)      |
-| Fundamental Laws    |      [📖](DSCA_LAWS.md)     |      [📖](DSCA_LAWS.fr.md)     |
+| README              |              ✅             |      [🇫🇷](README.fr.md)        |
+| Manifesto           |       [📖](MANIFESTO.md)    | [📖](MANIFESTO.fr.md)         |
+| Lexicon             |       [📖](LEXICON.md)      |       [📖](LEXICON.fr.md)     |
+| Fundamental Laws    |      [📖](DSCA_LAWS.md)     |      [📖](DSCA_LAWS.fr.md)    |
 | Data Model          |     [📖](DATA_MODEL.md)     |                —               |
 | Development Roadmap |       [📖](ROADMAP.md)      |                —               |
 | Reasoning Roadmap   |  [📖](REASONING_ROADMAP.md) |                —               |
@@ -136,8 +136,8 @@ DSCA/
 
 ├── README.md
 ├── README.fr.md
-├── THE-DSCA-MANIFESTO.md
-├── THE-DSCA-MANIFESTO.fr.md
+├── MANIFESTO.md
+├── MANIFESTO.fr.md
 ├── LEXICON.md
 ├── LEXICON.fr.md
 ├── DSCA_LAWS.md
