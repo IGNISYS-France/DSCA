@@ -40,6 +40,7 @@ Before reading any external data, DSCA must define its own internal language.
 * [ ] Observation model
 * [ ] Observation collection
 * [ ] Dataset model
+* [ ] DSCA Signal Registry
 
 ---
 
