@@ -1,39 +1,34 @@
-[🇬🇧 English](README.md) | 🇫🇷 **Français**
----
-## Documentation
-
-| Document | Français | English |
-|----------|:---------:|:-------:|
-| README | ✅ | [🇬🇧](README.md) |
-| Manifeste | [📖](THE-DSCA-MANIFESTO.fr.md) | [📖](THE-DSCA-MANIFESTO.md) |
-| Lexique | [📖](LEXICON.fr.md) | [📖](LEXICON.md) |
-| Lois fondamentales | [📖](DSCA_LAWS.fr.md) | [📖](DSCA_LAWS.md) |
+🇫🇷 **Français** | [🇬🇧 English](README.md)
 
 ---
 
 # DSCA — Dynamic System Causal Analysis
 
-> **Comprendre les systèmes, pas simplement lire les données.**
+> **Des observations vers la compréhension.**
 
-DSCA est un projet open source dédié à l'analyse causale des systèmes dynamiques.
+DSCA est un projet open source dédié à la compréhension explicable des systèmes dynamiques par le raisonnement causal.
 
-Plutôt que de créer un nouvel outil de diagnostic, DSCA a pour objectif de proposer une nouvelle manière de comprendre les systèmes complexes en analysant les données enregistrées, en identifiant leurs interactions et en aidant l'utilisateur à construire des hypothèses techniques cohérentes.
+Plutôt que de créer un nouvel outil de diagnostic, DSCA a pour ambition de développer un moteur de raisonnement générique capable de transformer des observations hétérogènes en une compréhension technique cohérente et explicable.
 
 ---
 
 # Pourquoi DSCA ?
 
-Les systèmes modernes génèrent aujourd'hui des milliers de mesures chaque seconde.
+Les systèmes modernes génèrent des milliers de mesures chaque seconde.
 
 Les outils de diagnostic actuels savent :
 
 * lire les codes défaut ;
 * afficher les données en temps réel ;
-* enregistrer des journaux d'acquisition (logs).
+* enregistrer des journaux de fonctionnement.
 
-En revanche, ils aident encore très peu à comprendre comment toutes ces données interagissent dans le temps.
+En revanche, ils expliquent rarement **pourquoi** un système se comporte d'une certaine manière.
 
 DSCA commence là où les outils de diagnostic traditionnels s'arrêtent.
+
+Son objectif n'est pas simplement d'analyser des données.
+
+Son objectif est de comprendre les systèmes dynamiques.
 
 ---
 
@@ -41,82 +36,96 @@ DSCA commence là où les outils de diagnostic traditionnels s'arrêtent.
 
 DSCA a pour objectif de :
 
-* importer des journaux provenant de différents outils d'acquisition ;
-* normaliser des données issues de sources hétérogènes ;
+* acquérir des observations provenant de sources hétérogènes ;
+* normaliser les mesures dans un langage commun ;
+* reconstruire le contexte d'un système ;
 * détecter les événements significatifs ;
-* construire des relations contextuelles entre les observations ;
-* identifier des signatures comportementales ;
+* identifier des comportements récurrents ;
 * générer des hypothèses causales explicables ;
+* accumuler des connaissances validées ;
 * assister le raisonnement humain sans jamais le remplacer.
 
 ---
 
-# État du projet
+# Documentation
 
-🚧 **Recherche & Développement – Phase de conception**
-
-DSCA est actuellement en phase de conception.
-
-Son architecture, sa philosophie et ses concepts fondamentaux sont définis avant le début du développement.
+| Document                         |           English           |            Français            |
+| -------------------------------- | :-------------------------: | :----------------------------: |
+| README                           |      [🇬🇧](README.md)      |                ✅               |
+| Manifeste                        | [📖](THE-DSCA-MANIFESTO.md) | [📖](THE-DSCA-MANIFESTO.fr.md) |
+| Lexique                          |       [📖](LEXICON.md)      |       [📖](LEXICON.fr.md)      |
+| Lois Fondamentales               |      [📖](DSCA_LAWS.md)     |      [📖](DSCA_LAWS.fr.md)     |
+| Modèle de Données                |     [📖](DATA_MODEL.md)     |                —               |
+| Feuille de Route                 |       [📖](ROADMAP.md)      |                —               |
+| Feuille de Route du Raisonnement |  [📖](REASONING_ROADMAP.md) |                —               |
 
 ---
 
-# Architecture prévisionnelle
+# État actuel du projet
+
+🚧 **Version 0.1.0-dev — Observation**
+
+La phase **Genesis** est désormais terminée.
+
+DSCA entre officiellement dans sa première étape de développement : **Observation**.
+
+Les travaux actuels portent sur :
+
+* le modèle de Signal ;
+* le modèle de Signal Canonique ;
+* le Registre des Signaux DSCA ;
+* le modèle d'Observation ;
+* le premier importateur CSV générique.
+
+---
+
+# Architecture générale
 
 ```text
-Journaux d'acquisition
-        │
-        ▼
-Importeurs
-        │
-        ▼
-Normalisation
-        │
-        ▼
-Moteur d'état du système
-        │
-        ▼
-Détection d'événements
-        │
-        ▼
-Analyse comportementale
-        │
-        ▼
-Raisonnement causal
-        │
-        ▼
-Génération d'hypothèses
-        │
-        ▼
-Interprétation humaine
+Sources de données externes
+            │
+            ▼
+Importateurs
+            │
+            ▼
+Registre des Signaux DSCA
+            │
+            ▼
+Modèle d'Observation
+            │
+            ▼
+Moteur de Contexte
+            │
+            ▼
+Moteur d'Événements
+            │
+            ▼
+Moteur de Comportements
+            │
+            ▼
+Moteur de Raisonnement
+            │
+            ▼
+Moteur de Connaissance
+            │
+            ▼
+Compréhension humaine
 ```
-
----
-
-# Fonctionnalités prévues
-
-* Import de journaux multi-formats
-* Prise en charge des fichiers CSV Launch
-* Prise en charge des fichiers CSV Autel
-* Prise en charge des journaux AutoTuner
-* Importateur CSV générique
-* Moteur de détection d'événements
-* Reconnaissance de signatures comportementales
-* Analyse causale contextualisée
-* Moteur de raisonnement explicable
-* Génération de rapports techniques assistés par IA
 
 ---
 
 # Principes fondamentaux
 
-* Les observations précèdent toujours les hypothèses.
-* Le contexte est essentiel.
-* Toute hypothèse doit pouvoir être expliquée.
-* Toute hypothèse doit pouvoir être réfutée.
-* L'expertise humaine demeure toujours au centre du processus.
+DSCA repose sur plusieurs principes essentiels :
 
-Pour découvrir la philosophie complète du projet, consultez **MANIFESTO.fr.md**.
+* Les observations précèdent toujours les hypothèses.
+* Le contexte donne du sens aux observations.
+* Toute hypothèse doit être explicable.
+* Toute hypothèse doit pouvoir être remise en question.
+* La connaissance se construit par la validation.
+* L'expertise humaine reste toujours centrale.
+
+Pour découvrir la philosophie complète du projet, consultez le **Manifeste**.
 
 ---
 
@@ -127,49 +136,33 @@ DSCA/
 
 ├── README.md
 ├── README.fr.md
-├── MANIFESTO.md
-├── MANIFESTO.fr.md
-├── docs/
-├── src/
-├── tests/
-├── plugins/
-└── examples/
+├── THE-DSCA-MANIFESTO.md
+├── THE-DSCA-MANIFESTO.fr.md
+├── LEXICON.md
+├── LEXICON.fr.md
+├── DSCA_LAWS.md
+├── DSCA_LAWS.fr.md
+├── DATA_MODEL.md
+├── ROADMAP.md
+├── REASONING_ROADMAP.md
+├── LICENSE
+└── src/
+    └── dsca/
 ```
 
 ---
 
-# Feuille de route
+# Développement
 
-## Genesis
+La feuille de route complète du projet est disponible dans **ROADMAP.md**.
 
-* [ ] Initialisation du dépôt
-* [ ] Conception de l'architecture principale
-* [ ] Documentation
-
-## Foundation
-
-* [ ] Importateur CSV générique
-* [ ] Importateur Launch
-* [ ] Normalisation des données
-
-## Engine
-
-* [ ] Modèle d'état du système
-* [ ] Moteur d'événements
-* [ ] Moteur d'analyse comportementale
-* [ ] Moteur de raisonnement causal
-
-## Assistant
-
-* [ ] Raisonnement explicable
-* [ ] Génération de rapports techniques
-* [ ] Assistance au diagnostic par IA
+L'évolution des capacités de raisonnement de DSCA est décrite dans **REASONING_ROADMAP.md**.
 
 ---
 
 # Contribuer
 
-DSCA accueille les contributions de :
+DSCA accueille avec plaisir les contributions de :
 
 * développeurs logiciels ;
 * ingénieurs automobiles ;
@@ -184,10 +177,12 @@ Si vous partagez la philosophie du projet, votre contribution est la bienvenue.
 
 # Licence
 
-Licence en cours de définition.
+Ce projet est distribué sous licence **MIT**.
+
+Consultez le fichier **LICENSE** pour plus d'informations.
 
 ---
 
 # Devise
 
-**Créer l'avenir, pas simplement le demain.**
+> **Créer l'avenir, pas simplement demain.**
