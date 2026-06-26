@@ -1,0 +1,20 @@
+id: CS-AIR-0001
+
+name: Manifold Absolute Pressure
+
+description: Absolute pressure inside the intake manifold.
+
+category: air
+
+physical_quantity: pressure
+
+default_unit: kPa
+
+dimension: pressure
+
+aliases:
+  - MAP
+  - Manifold Pressure
+  - Absolute Pressure
+  - Pression collecteur
+  - PID 0B

@@ -1,0 +1,24 @@
+id: CS-ENG-0001
+
+version: 1
+
+name: Engine Speed
+
+description: Rotational speed of the engine crankshaft.
+
+category: engine
+
+physical_quantity: rotational_speed
+
+default_unit: rpm
+
+dimension: angular_velocity
+
+aliases:
+  - Engine RPM
+  - RPM
+  - Engine Speed
+  - Régime moteur
+  - Motordrehzahl
+  - N_ENGINE
+  - PID 0C

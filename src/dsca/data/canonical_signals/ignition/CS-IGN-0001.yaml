@@ -1,0 +1,20 @@
+id: CS-IGN-0001
+
+name: Ignition Advance
+
+description: Ignition timing advance before top dead center.
+
+category: ignition
+
+physical_quantity: angle
+
+default_unit: degree
+
+dimension: angle
+
+aliases:
+  - Ignition Advance
+  - Spark Advance
+  - Advance
+  - Avance allumage
+  - PID 0E

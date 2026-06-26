@@ -1,0 +1,19 @@
+id: CS-IGN-0025
+
+name: Cylinder 15 Misfire Count
+
+description: Number of combustion misfires detected on cylinder 15.
+
+category: ignition
+
+physical_quantity: count
+
+default_unit: count
+
+dimension: count
+
+aliases:
+  - Cylinder 15 Misfire
+  - Misfire Cylinder 15
+  - Cyl 15 Misfire
+  - Ratés cylindre 15

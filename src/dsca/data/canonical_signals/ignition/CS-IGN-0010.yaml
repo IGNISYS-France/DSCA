@@ -1,0 +1,19 @@
+id: CS-IGN-0010
+
+name: Misfire Count
+
+description: Total number of combustion misfires detected by the engine control unit.
+
+category: ignition
+
+physical_quantity: count
+
+default_unit: count
+
+dimension: count
+
+aliases:
+  - Misfire Count
+  - Total Misfires
+  - Ratés d'allumage
+  - Misfire Counter

@@ -1,0 +1,19 @@
+id: CS-FUEL-0021
+
+name: Long Term Fuel Trim
+
+description: Long-term fuel correction learned by the engine control unit.
+
+category: fuel
+
+physical_quantity: fuel_trim
+
+default_unit: percent
+
+dimension: ratio
+
+aliases:
+  - LTFT
+  - Long Fuel Trim
+  - Long Term Fuel Trim
+  - Correction carburant long terme

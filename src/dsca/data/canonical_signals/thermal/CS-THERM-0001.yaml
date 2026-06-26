@@ -1,0 +1,20 @@
+id: CS-THERM-0001
+
+name: Coolant Temperature
+
+description: Engine coolant temperature.
+
+category: thermal
+
+physical_quantity: temperature
+
+default_unit: celsius
+
+dimension: temperature
+
+aliases:
+  - Coolant Temperature
+  - ECT
+  - Engine Coolant Temp
+  - Température liquide refroidissement
+  - PID 05

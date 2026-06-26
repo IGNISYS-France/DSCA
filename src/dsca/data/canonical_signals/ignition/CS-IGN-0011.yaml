@@ -1,0 +1,19 @@
+id: CS-IGN-0011
+
+name: Cylinder 1 Misfire Count
+
+description: Number of combustion misfires detected on cylinder 1.
+
+category: ignition
+
+physical_quantity: count
+
+default_unit: count
+
+dimension: count
+
+aliases:
+  - Cylinder 1 Misfire
+  - Misfire Cylinder 1
+  - Cyl 1 Misfire
+  - Ratés cylindre 1

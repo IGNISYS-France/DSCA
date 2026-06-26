@@ -1,0 +1,19 @@
+id: CS-FUEL-0001
+
+name: Rail Pressure
+
+description: Fuel pressure measured in the common rail.
+
+category: fuel
+
+physical_quantity: pressure
+
+default_unit: bar
+
+dimension: pressure
+
+aliases:
+  - Rail Pressure
+  - Fuel Rail Pressure
+  - Pression rampe
+  - Common Rail Pressure

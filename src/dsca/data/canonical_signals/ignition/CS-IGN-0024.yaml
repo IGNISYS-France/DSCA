@@ -1,0 +1,19 @@
+id: CS-IGN-0024
+
+name: Cylinder 14 Misfire Count
+
+description: Number of combustion misfires detected on cylinder 14.
+
+category: ignition
+
+physical_quantity: count
+
+default_unit: count
+
+dimension: count
+
+aliases:
+  - Cylinder 14 Misfire
+  - Misfire Cylinder 14
+  - Cyl 14 Misfire
+  - Ratés cylindre 14

@@ -1,0 +1,19 @@
+id: CS-IGN-0019
+
+name: Cylinder 9 Misfire Count
+
+description: Number of combustion misfires detected on cylinder 9.
+
+category: ignition
+
+physical_quantity: count
+
+default_unit: count
+
+dimension: count
+
+aliases:
+  - Cylinder 9 Misfire
+  - Misfire Cylinder 9
+  - Cyl 9 Misfire
+  - Ratés cylindre 9

@@ -1,0 +1,20 @@
+id: CS-AIR-0020
+
+name: Intake Air Temperature
+
+description: Temperature of the intake air.
+
+category: air
+
+physical_quantity: temperature
+
+default_unit: celsius
+
+dimension: temperature
+
+aliases:
+  - Intake Air Temperature
+  - IAT
+  - Air Temperature
+  - Température air admission
+  - PID 0F

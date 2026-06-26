@@ -1,0 +1,19 @@
+id: CS-IGN-0022
+
+name: Cylinder 12 Misfire Count
+
+description: Number of combustion misfires detected on cylinder 12.
+
+category: ignition
+
+physical_quantity: count
+
+default_unit: count
+
+dimension: count
+
+aliases:
+  - Cylinder 12 Misfire
+  - Misfire Cylinder 12
+  - Cyl 12 Misfire
+  - Ratés cylindre 12

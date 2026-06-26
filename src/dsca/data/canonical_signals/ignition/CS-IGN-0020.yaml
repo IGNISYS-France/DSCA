@@ -1,0 +1,19 @@
+id: CS-IGN-0020
+
+name: Cylinder 10 Misfire Count
+
+description: Number of combustion misfires detected on cylinder 10.
+
+category: ignition
+
+physical_quantity: count
+
+default_unit: count
+
+dimension: count
+
+aliases:
+  - Cylinder 10 Misfire
+  - Misfire Cylinder 10
+  - Cyl 10 Misfire
+  - Ratés cylindre 10

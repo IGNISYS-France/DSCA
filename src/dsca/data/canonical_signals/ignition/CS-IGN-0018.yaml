@@ -1,0 +1,19 @@
+id: CS-IGN-0018
+
+name: Cylinder 8 Misfire Count
+
+description: Number of combustion misfires detected on cylinder 8.
+
+category: ignition
+
+physical_quantity: count
+
+default_unit: count
+
+dimension: count
+
+aliases:
+  - Cylinder 8 Misfire
+  - Misfire Cylinder 8
+  - Cyl 8 Misfire
+  - Ratés cylindre 8

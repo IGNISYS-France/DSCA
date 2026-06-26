@@ -1,0 +1,19 @@
+id: CS-IGN-0014
+
+name: Cylinder 4 Misfire Count
+
+description: Number of combustion misfires detected on cylinder 4.
+
+category: ignition
+
+physical_quantity: count
+
+default_unit: count
+
+dimension: count
+
+aliases:
+  - Cylinder 4 Misfire
+  - Misfire Cylinder 4
+  - Cyl 4 Misfire
+  - Ratés cylindre 4

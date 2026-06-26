@@ -1,0 +1,19 @@
+id: CS-IGN-0017
+
+name: Cylinder 7 Misfire Count
+
+description: Number of combustion misfires detected on cylinder 7.
+
+category: ignition
+
+physical_quantity: count
+
+default_unit: count
+
+dimension: count
+
+aliases:
+  - Cylinder 7 Misfire
+  - Misfire Cylinder 7
+  - Cyl 7 Misfire
+  - Ratés cylindre 7

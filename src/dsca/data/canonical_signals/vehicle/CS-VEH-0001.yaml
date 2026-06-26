@@ -1,0 +1,20 @@
+id: CS-VEH-0001
+
+name: Vehicle Speed
+
+description: Current vehicle speed.
+
+category: vehicle
+
+physical_quantity: speed
+
+default_unit: km/h
+
+dimension: speed
+
+aliases:
+  - Vehicle Speed
+  - Speed
+  - VSS
+  - Vitesse véhicule
+  - PID 0D

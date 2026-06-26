@@ -1,0 +1,19 @@
+id: CS-IGN-0016
+
+name: Cylinder 6 Misfire Count
+
+description: Number of combustion misfires detected on cylinder 6.
+
+category: ignition
+
+physical_quantity: count
+
+default_unit: count
+
+dimension: count
+
+aliases:
+  - Cylinder 6 Misfire
+  - Misfire Cylinder 6
+  - Cyl 6 Misfire
+  - Ratés cylindre 6

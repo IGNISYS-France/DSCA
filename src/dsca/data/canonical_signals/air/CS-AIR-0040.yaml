@@ -1,0 +1,20 @@
+id: CS-AIR-0040
+
+name: Mass Air Flow
+
+description: Air mass measured entering the engine.
+
+category: air
+
+physical_quantity: mass_flow
+
+default_unit: g/s
+
+dimension: mass_flow
+
+aliases:
+  - MAF
+  - Mass Air Flow
+  - Débit d'air
+  - Luftmasse
+  - PID 10

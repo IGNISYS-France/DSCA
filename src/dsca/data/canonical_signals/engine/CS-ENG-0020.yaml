@@ -1,0 +1,20 @@
+id: CS-ENG-0020
+
+name: Accelerator Pedal Position
+
+description: Driver accelerator pedal position.
+
+category: engine
+
+physical_quantity: pedal_position
+
+default_unit: percent
+
+dimension: ratio
+
+aliases:
+  - Accelerator Position
+  - Accelerator Pedal
+  - APP
+  - Pedal Position
+  - Position pédale accélérateur

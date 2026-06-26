@@ -1,0 +1,19 @@
+id: CS-FUEL-0010
+
+name: Lambda
+
+description: Measured air-fuel equivalence ratio.
+
+category: fuel
+
+physical_quantity: lambda
+
+default_unit: lambda
+
+dimension: ratio
+
+aliases:
+  - Lambda
+  - AFR Lambda
+  - Equivalence Ratio
+  - Richesse
