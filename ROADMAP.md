@@ -30,9 +30,22 @@ It is the progressive construction of an explainable reasoning engine dedicated 
 
 > **Every understanding begins with observation.**
 
-DSCA first learns how to observe dynamic systems reliably.
+DSCA first learns how to represent, acquire and normalize observations.
+
+## Observation Model
+
+Before reading any external data, DSCA must define its own internal language.
+
+* [ ] Signal model
+* [ ] Observation model
+* [ ] Observation collection
+* [ ] Dataset model
+
+---
 
 ## Observation Acquisition
+
+Once the internal model exists, DSCA learns how to acquire observations from external sources.
 
 * [ ] Generic CSV importer
 * [ ] Launch CSV importer
@@ -40,9 +53,12 @@ DSCA first learns how to observe dynamic systems reliably.
 * [ ] AutoTuner log importer
 * [ ] Extensible plugin importer architecture
 
+---
+
 ## Observation Normalization
 
-* [ ] Common internal data model
+Imported observations are transformed into a common internal representation.
+
 * [ ] Timestamp synchronization
 * [ ] Unit normalization
 * [ ] Signal validation
@@ -54,13 +70,13 @@ DSCA first learns how to observe dynamic systems reliably.
 
 > **An observation only becomes meaningful within its context.**
 
-DSCA learns how to reconstruct the complete state surrounding observations.
+DSCA reconstructs the complete state surrounding every observation.
 
-* [ ] System State model
 * [ ] Context model
-* [ ] Signal abstraction
+* [ ] System State model
 * [ ] Dynamic Context engine
 * [ ] Time-series management
+* [ ] Context consistency validation
 
 ---
 
@@ -189,7 +205,7 @@ Potential extensions include:
 
 ---
 
-# Version 1.0 - New Dawn 
+# Version 1.0 — New Dawn
 
 The first stable version should be capable of:
 
