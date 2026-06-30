@@ -44,8 +44,23 @@ Before reading any external data, DSCA must define its own internal representati
 * [x] Behavioral Pattern model
 * [x] Causal Hypothesis model
 * [x] Diagnostic Code model
-* [x] DSCA Canonical Signal Registry
-* [x] DSCA Diagnostic Code Registry
+* [x] Registry architecture
+* [x] Canonical Signal Registry structure
+* [x] Diagnostic Code Registry structure
+
+---
+
+## Knowledge Base
+
+* [x] Canonical Signal taxonomy
+* [x] Initial Canonical Signal definitions
+* [x] Canonical Unit definitions
+* [ ] Signal Registry loading engine
+* [ ] Diagnostic Code Registry loading engine
+* [ ] Alias indexing
+* [ ] Registry validation
+* [ ] Registry statistics
+* [ ] Registry search API
 
 ---
 
@@ -146,7 +161,7 @@ The engine never claims certainty.
 
 ---
 
-# Phase 6 — Knowledge
+# Phase 6 — Knowledge Evolution
 
 > **Validated reasoning becomes knowledge.**
 
